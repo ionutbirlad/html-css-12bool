@@ -1,0 +1,6 @@
+/* Eventualmente mi posso ricreare il Clearfix se dovesse servire */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
