@@ -10,7 +10,7 @@
 }
 
 /* Clearfix del container generale e del fullwidth*/
-.container-fullwidth::after,
+.container .full-width::after,
 .container::after{
   content: "";
   display: table;
