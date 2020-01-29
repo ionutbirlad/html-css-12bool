@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Clearfix del container generale e del fullwidth*/
+.container-fullwidth::after,
+.container::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Rendo float le colonne in generale così da permettere loro di affiancarsi */
+[class*="col-"]{
+  float: left;
+  /* serve solo per orientarmi */
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background-color: #0074D9;
+  border: 1px solid #111111;
+}
