@@ -9,6 +9,14 @@
   background-color: #FF4136;
 }
 
+.container-fullwidth.second{
+  background-color: #39CCCC;
+}
+
+.container-fullwidth.third{
+  background-color: #001f3f;
+}
+
 .orange{
   background-color: #FF851B;
 }
